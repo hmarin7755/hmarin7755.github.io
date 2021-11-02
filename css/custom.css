@@ -131,6 +131,7 @@
   }
   .logo:hover {
     transform: scale(1.1,1.1);
+  }
 
   .qrcode {
     max-width: 100%;
