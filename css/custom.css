@@ -100,3 +100,7 @@
     background-color: #2937f0;
     border-color: #2937f0;
   }
+
+  .qrcode {
+    max-width: 100%;
+  }
