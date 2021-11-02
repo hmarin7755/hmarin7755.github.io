@@ -1,3 +1,15 @@
+/*
+@font-face {
+  src: url('fonts/Means App-Light.ttf') format('ttf');
+  font-family: 'mc';
+  font-style: normal;
+  font-weight: 100;
+}
+ h1{
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: 'mc'!important;
+}
+*/
 
 :root {
     --bs-blue: #2937f0;
@@ -55,6 +67,7 @@
 
 
 
+  
   .bg-secondary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -74,21 +87,21 @@
 
   .btn-primary:hover {
     color: #fff;
-    background-color:#5e5e5e;
-    border-color: #5e5e5e;
+    background-color:#007C89;
+    border-color: #007C89;
   }
 
   .btn-check:focus + .btn-primary, .btn-primary:focus {
     color: #fff;
-    background-color: #232fcc;
-    border-color: #212cc0;
-    box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
+    background-color: #007C89;
+    border-color: #007C89;
+    box-shadow: 0 0 0 0.25rem rgb(197,219,242);
   }
 
   .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #212cc0;
-    border-color: #1f29b4;
+    background-color: #007C89;
+    border-color: #007C89;
   }
 
   .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -101,6 +114,25 @@
     border-color: #2937f0;
   }
 
+
+  .app-badge {
+    height: 3rem;
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #007C89;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #007C89;
+  }
+
+  .logo {
+    transition: transform .5s ease;
+  }
+  .logo:hover {
+    transform: scale(1.1,1.1);
+
   .qrcode {
     max-width: 100%;
+
   }
