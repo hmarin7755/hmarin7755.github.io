@@ -114,6 +114,7 @@
     border-color: #2937f0;
   }
 
+
   .app-badge {
     height: 3rem;
   }
@@ -130,4 +131,8 @@
   }
   .logo:hover {
     transform: scale(1.1,1.1);
+
+  .qrcode {
+    max-width: 100%;
+
   }
