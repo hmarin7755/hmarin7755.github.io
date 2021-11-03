@@ -36,6 +36,26 @@ h3, .h3 {
     font-family: 'Means App Light'!important;
   }
 }
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+  font-family: 'Means App Light'!important;
+}
+@media (min-width: 1200px) {
+  h4, .h4 {
+    font-size: 1.5rem;
+    font-family: 'Means App Light'!important;
+  }
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+  font-family: 'Means App Light'!important;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+  font-family: 'Means App Light'!important;
+}
 
 :root {
     --bs-blue: #2937f0;
@@ -96,7 +116,7 @@ h3, .h3 {
   section.cta {
     position: relative;
     padding: 15rem 0;
-  background-image: url("../assets/img/people.jpg"); 
+  background-image: url("https://hmarin7755.github.io./assets/img/people.jpg"); 
    /* background-image: url("assets/img/people.jpg");*/
     background-position: center;
     background-size: cover;
