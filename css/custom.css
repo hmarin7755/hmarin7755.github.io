@@ -1,6 +1,7 @@
 
 @font-face {
-  src: url('fonts/Means App-Light.ttf') format('ttf');
+  /* src: url('fonts/Means App-Light.ttf') format('ttf'); */
+  src:url('https://hmarin7755.github.io./fonts/Means App-Light.ttf');
   font-family: 'Means App Light'; 
   font-style: normal;
   font-weight: 100;
