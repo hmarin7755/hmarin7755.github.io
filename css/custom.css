@@ -253,3 +253,18 @@ h6, .h6 {
     background-size: 1.25rem;
     transition: transform 0.2s ease-in-out;
   }
+  .testimonial-img {
+    border-radius: 1000px;
+    max-height: 150px;
+  }
+
+  .testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat( 3, minmax(250px, 1fr) );
+    margin: 0;
+    gap: 20px;
+}
+
+.testimonial-grid > * {
+  width: auto;
+}
