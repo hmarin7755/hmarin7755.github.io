@@ -11411,8 +11411,8 @@ section {
 
 section.cta {
   position: relative;
-  padding: 15rem 0;
-  background-image: url("assets/img/people.jpg");
+  padding: 20rem 0;
+  background-image: url("../assets/img/people.jpg");
   background-position: center;
   background-size: cover;
 }
