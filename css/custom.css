@@ -301,7 +301,7 @@ h6, .h6 {
 
 .features-img {
   border-radius: 5px ;
-  max-height: 5000px;
+  height: auto;
   width: auto;
 }
 
