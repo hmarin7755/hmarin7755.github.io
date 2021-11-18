@@ -116,7 +116,7 @@ h6, .h6 {
   section.cta {
     position: relative;
     padding: 15rem 0;
-  background-image: url("/assets/img/How-To-Be-An-Entrepreneur-And-Not-Work-og.png"); 
+  background-image: url("https://hmarin7755.github.io./assets/img/How-To-Be-An-Entrepreneur-And-Not-Work-og.png"); 
    /* background-image: url("https://hmarin7755.github.io./assets/img/people.jpg");*/
     background-position: right 35% bottom 75%;;
     background-size: cover;
@@ -297,3 +297,26 @@ h6, .h6 {
 
 
 #phone-left{}
+
+
+.features-img {
+  border-radius: 10px ;
+  max-height: 500px
+  ;
+}
+
+
+.features-carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: -2rem;
+  margin-left: 15%;
+  list-style: none;
+}
