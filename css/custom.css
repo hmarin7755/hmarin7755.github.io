@@ -210,6 +210,7 @@ h6, .h6 {
     max-width: 100%;
 
   }
+  
   .accordion-button {
     position: relative;
     display: flex;
@@ -244,7 +245,7 @@ h6, .h6 {
   }
   .bg-light {
     --bs-bg-opacity: 1;
-    background-color: rgb(197,219,242) !important;
+    background-color: #e8f2f5 !important;
   }
   .accordion-button:not(.collapsed)::after {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
@@ -261,15 +262,19 @@ h6, .h6 {
     background-size: 1.25rem;
     transition: transform 0.2s ease-in-out;
   }
+
+
+
+  
   .testimonial-img {
-    border-radius: 1000px;
+    border-radius: 10px;
     max-height: 150px;
   }
 
   .testimonial-grid {
     display: grid;
     grid-template-columns: repeat( 3, minmax(250px, 1fr) );
-    margin: 0;
+    margin: 0 0 16;
     gap: 20px;
 }
 
@@ -319,4 +324,83 @@ h6, .h6 {
   margin-bottom: -2rem;
   margin-left: 15%;
   list-style: none;
+}
+
+
+.tag {
+  text-align: center;
+  font-size: 1.1rem
+}
+
+
+
+.card {
+  height: 320px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: -1px 3px 5px #a7a7a7
+}
+
+.testimonial {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  font-weight: 500
+}
+
+.active-star {
+  color: #FBC02D;
+  margin-bottom: 8px
+}
+
+.active-star:hover {
+  color: #F9A825;
+  cursor: pointer
+}
+
+.profile {
+  padding-top: 10px
+}
+
+.name {
+  font-weight: 700
+}
+
+.designation {
+  font-size: 0.84rem;
+  font-weight: 600
+}
+
+.owl-carousel {
+  margin-bottom: 15px
+}
+
+.owl-carousel .owl-stage-outer {
+  padding: 40px 10px;
+  height: 380px
+}
+
+.owl-carousel .owl-item img {
+  width: 45px !important;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  border-radius: 50% !important;
+  background: inherit !important;
+  border: 3px solid #bbb;
+  color: #bbb !important
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  border: 3px solid #1010ca;
+  color: #1010ca !important
+}
+
+@media(max-width: 575.5px) {
+  .container {
+      margin: 0px;
+      padding: 20px
+  }
 }
