@@ -397,3 +397,18 @@ h6, .h6 {
       padding: 20px
   }
 }
+
+.pricing {
+  --bs-bg-opacity: 1;
+  background-color: rgb(246,246,244)!important;
+}
+
+.pricing-secondary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.pricing-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
