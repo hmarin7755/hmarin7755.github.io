@@ -136,7 +136,7 @@ figcaption p{
    display: block;
    width: -webkit-calc(100%/3);
    width: -moz-calc(100%/3);
-    width: calc(100%/3);
+    width: calc(100%);
   }
 }
 @media only screen and (min-width:1024px){
@@ -159,6 +159,58 @@ figcaption p{
 .plan-select{
     margin-top: auto;
 }
+
+
+
+
+
+.listing-item .listing2{
+   padding: 150px;
+   position: relative;
+   display: flex;
+   flex-flow: column;
+   min-height: 395px;
+}
+
+
+
+
+.txn-pricing-calc__blocksContainer {
+    -ms-flex-order: 3;
+    order: 3;
+    margin-bottom: 0;
+}
+.txn-pricing-calc__blocksContainer, .txn-pricing-calc__inputContainer {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    background: #fff;
+    line-height: 1.35;
+    color: #403b3b;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+}
+
+.txn-pricing-calc__form {
+  border-bottom: 0.0625rem solid #dbd9d2;
+  background: #fff;
+  padding: 1.25rem 1.875rem 1.875rem;
+}
+.txn-pricing-calc__form, .txn-pricing-calc__results {
+  padding: 1.25rem;
+}
+
+user agent stylesheet
+div {
+  display: block;
+}
+
 /*
 .pricing2--{
   background: #dad3aa30;
