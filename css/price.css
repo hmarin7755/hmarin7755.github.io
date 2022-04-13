@@ -70,9 +70,10 @@
   left:-moz-calc(50% - 15px);
   left:-webkit-calc(50% - 15px);
   left:calc(50% - 15px);
-  border-bottom:20px solid #fff;
+  /*border-bottom:20px solid #fff;
   border-left:20px solid transparent;
   border-right:20px solid transparent;
+  */
 }
   figure.image img {
     max-width:100%;
@@ -80,7 +81,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: contain;
-    opacity: .5;
+    opacity: 1.5;
 }
 figure.image {
     position: relative;
@@ -141,7 +142,7 @@ figcaption p{
 }
 @media only screen and (min-width:1024px){
   .hover-table-layout{
-        padding: 30px;
+        padding: 0px;
   }
 
   .plan-select a {

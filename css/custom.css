@@ -136,7 +136,7 @@ h6, .h6 {
   }
   .bg-info {
     --bs-bg-opacity: 1;
-    background-color: rgb(246,246,244)!important;
+    background-color:  #f9fafb!important;
   }
   
   .bg-secondary {
@@ -400,7 +400,7 @@ h6, .h6 {
 
 .pricing {
   --bs-bg-opacity: 1;
-  background-color: rgb(246,246,244)!important;
+  background-color: rgb(251 238 202)!important;
 }
 
 .pricing-secondary {
