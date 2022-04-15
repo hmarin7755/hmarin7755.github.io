@@ -412,3 +412,10 @@ h6, .h6 {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(251 238 202)!important;
+}

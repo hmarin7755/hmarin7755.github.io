@@ -5,6 +5,7 @@
 }
 .pricing-- .h2, .pricing-- h2{
     font-family: 'Corben', cursive !important;
+    
 }
 #title{
   text-align: center;
@@ -26,6 +27,14 @@
     */
   max-width:1200px;
   margin:0 auto;
+  flex-flow: column;
+  padding: 20px;
+  align-items: center;
+}
+@media only screen and (min-width:840px){
+.hover-table-layout{
+  flex-flow: row;
+}
 }
 
 .listing-item {
@@ -137,24 +146,32 @@ figcaption p{
    display: block;
    width: -webkit-calc(100%/3);
    width: -moz-calc(100%/3);
-    width: calc(100%);
+    width: 100%;
   }
 }
+
+@media only screen and (max-width:839px){
+  .listing-item{
+    width: 75%;
+  }
+}
+
 @media only screen and (min-width:1024px){
   .hover-table-layout{
         padding: 0px;
   }
 
-  .plan-select a {
-    background-color: #222f3d;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    font-weight: 800;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-  }
+}
+
+.plan-select a {
+  background-color: #222f3d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 .plan-select{
